@@ -24,18 +24,22 @@ export const Home = () => {
     navigate('/servies');
 
   };
+
     return(
         <Container>
             <Wrap>
-                {/* /////////////////////// */}
+              {/* /////////////////////// */}
                 <>
-                    <Radio.Group
-                        onChange={handlePositionChange}
-                        value={dotPosition}
-                        style={{
-                          marginBottom: 8,
-                        }}
-                    />
+                  <Radio.Group
+                    onChange={handlePositionChange}
+                    value={dotPosition}
+                    style={{
+                      // marginBottom: 40,
+                      // marginLeft: 40,
+                      // marginRight:100,
+                    }}
+
+                  />
                     
       <Carousel dotPosition={dotPosition}>
         <div>

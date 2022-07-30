@@ -83,3 +83,6 @@ justify-content: center;
 -ms-user-select: none; 
 user-select: none;
 }
+ .ant-carousel-vertical .slick-dots-left {
+    left: 54px
+}
